@@ -1,0 +1,93 @@
+<html>
+   <head>
+       <title>Registeration</title>
+	   
+	   <link rel='stylesheet' href='stylsht.css' >
+	       
+	   </head>
+  <body>
+  <div id='head1'>
+        <h1>Antiquehub</h1>
+		<h2>JOIN&nbsp;and&nbsp;Explore&nbsp;</h2>	 
+      </div>
+  <div id='head2'>
+	      <ul>
+		     <li><a href='hompage.html'>Home</a></li>
+			 <li><a href='productpage.html'>Products</a></li>
+			 <li><a href='aboutus.html'>About Us</a></li>
+			 <li><a href='contactus.html'>Contact Us</a></li>
+			<li><a href='#'>Explore</a></li>
+		</ul> 
+	 	   </div>
+  <div id='box_shadow' >
+<form method='post' action="hompage.html" enctype="multipart/form-data">
+  <fieldset>
+    <legend>Member Information</legend>
+     <table border='0' align='center'>
+  <tr>
+   <td><label for='input1'>FULLNAME:</label></td>
+    <td><input type="text" name='fname' id='input1' /></td>
+ </tr>
+<tr>
+<td>PHONE NUMBER:</td><td><input type='number' name="rno" required /></td>
+</tr>
+
+  <tr>
+    <td>Date of birth:</td>
+    <td><input type='date' name='dt' /></td>
+</tr>
+  <tr>
+     <td>Email:</td>
+     <td><input type='email' name='email' /></td>
+  </tr>
+     
+      <tr><td>upload Profile pic:</td>
+        <td><input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture></td>
+      </tr>
+	  
+	    <tr>
+     <td>Describe yourself</td>
+     <td><textarea NAME='a1' cols='30' rows='5'></textarea></td>
+</tr>	 
+<tr><td>Select Type of Antique Contribution:</td>
+<td><select name='y'>
+ <option value='1'>Showcases</option>
+<option value='2'>Paintings</option>
+<option value='3'>Sculpture</option>
+<option value='4'>Watches</option>
+</Select>
+</td>
+   </tr>
+          <tr><td>upload Antique Images:</td>
+         <td><input id="image" type="file" name="profile_photo" placeholder="Photo" required=""  multiple capture></td>
+         </tr>
+
+<tr>
+  <td>Select gender:</td>
+  <td>
+     <input type='radio' name='gender' value='female' id='f'><label for='f'>female</label>
+	 <input type='radio' name='gender' value='male' id='m'><label for='m'>male</label>
+  </td>
+</tr
+
+<tr>
+  <td>create userid</td>
+   <td><input type='text' name='uid' />
+       </tr>
+ <tr>
+        <td>Create Password:</td>
+        <td><input type='Password' name='spass' /></td>
+     </tr>
+
+<td colspan='2' align='center' ><button class='btn'>Signup</button></td>
+</tr>
+</table></center>
+</fieldset>
+</form>
+</div>
+<div>
+     	<h5>&#169;copyright under AntiqueHub 2023</h5>
+	</div>	
+
+</body>
+  </html>

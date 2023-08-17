@@ -1,0 +1,159 @@
+/* hightlighting name and head of webpage */
+#head1{
+       background-image:url(images/bgd11.jpg);
+       color:white;
+       text-align:center;
+       word-spacing:20px;
+	   margin-top:20px;
+	   margin-bottom:15px;
+	   font-family:'poppins', sans-serif;
+	   text-transform:uppercase;
+	   border: 6px outset #244E6F;
+	   font-weight:bold;
+	   font-size:25px;
+	   border-radius: 10px;
+	   
+}
+/* for making unique effects to division */
+#head2{
+       border: 6px outset #244E6F;
+       background-color:black;
+	   color:white;
+	   text-transform:uppercase;
+	   margin-bottom:25px;
+	   border-radius: 10px;
+	}
+li {
+	list-style:none;
+	display:inline-block;
+	color:white;
+	text-transform:uppercase;
+	padding: 10px 85px 10px 85px;
+	margin:auto;
+	position:relative;
+	background-color:#4c4c4c;
+	border-radius: 10px;
+
+}
+
+a {
+       text-decoration:none;
+	   color:white;
+}	
+/* bordering divisions and giving effects */
+#head3 {
+	   background-image:url(images/bgd2.jpg);
+	   background-color:black;
+	   border: 5px outset #244E6F;
+	   text-align:center;
+	   width:80%;
+	   margin-left:100px;
+	   border-radius:10px;
+	   box-sizing:border-box;
+	   background-repeat:no-repeat; 
+      background-size:cover;
+} 
+/* text styling */
+h3 {
+	color:white;
+	text-align:center;
+	font-family:fantasy;
+	font-size:30px;
+	letter-spacing:15px;
+	text-decoration:underline;
+}
+
+p {
+	color:white;
+    font-family:fantasy;
+    font-size:50px;
+	font-weight:bold;
+}
+/* for button styling */
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+ 
+}
+
+.btn:hover {opacity: 1
+
+}
+ /*for body background image */
+body{ 
+	  background-image:url('images/spacebgd.jpg');
+    background-repeat:no-repeat; 
+      background-size:cover;
+	 background-attachment:fixed;
+}
+
+#h4 {
+	margin-top:-15px;
+	margin-bottom:15px;
+	transform:rotate(270deg);
+	display:inline;
+	float:left;
+}
+
+h4 {
+	margin-top:5px;
+	display:inline;
+	color:white;
+	position:relative;
+	font-size:130%;
+}
+
+.card {
+      margin-top:40px;	
+	  display:flex;
+	  gap: 6px;
+	  background-color: #f0f0f0;
+	  background-image:url(images/bgd2.jpg);
+	  padding:5px 10px;
+	  border-radius:10px;
+	  border: 6px outset #244E6F;
+}
+
+.tag {
+	background-color:none;
+	color:white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+
+.whatsapp{
+	 position:fixed;
+	 bottom:120px;
+	 right:20px;
+}
+
+.tel{
+	 position:fixed;
+	 bottom:60px;
+	 right:20px;
+}
+
+#box_shadow{ 
+	  width:601px; 
+	  height:577px; 
+	  border-style:solid;
+	  margin:150px auto;
+	  text-align:center;
+	  padding-top:80px;
+	  color:#EFF7F5;
+	  box-sizing:border-box;
+	  box-shadow:-2px 4px 17px 16px #EFF7F5;
+	  	  background-color:none;
+	}
+	
+table {
+      color:white;
+}	  
